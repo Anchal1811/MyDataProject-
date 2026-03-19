@@ -1,4 +1,4 @@
--- find top 10 highest revenue generating products
+- find top 10 highest revenue generating products
 SELECT product_id, sum(sale_price) AS sales
 FROM df_orders
 GROUP BY product_id
